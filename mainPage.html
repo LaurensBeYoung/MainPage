@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="mainPage.css" />
     <link rel="stylesheet" href="pomodoro.css" />
     <title>main_page</title>
-    <script type="module" src="mainPage.js"></script>
+    <script type="module" src="mainPage.js" ></script>
   </head>
   <body>
     <div class="container">
@@ -66,10 +66,56 @@
             <span>Reminders</span>
           </div>
           <div id="main-feed" data-main-tab-content>
-            <span>Feed</span>
+            <div class="feed-card-wrap" id="feed-card-wrap">
+              <div class="feed-card">
+                <div class="feed-card-left-part">
+                  <div class="feed-card-left-left-time">
+                    <div class="feed-card-left-time-span">25:00</div>
+                    
+                    <div class="feed-card-left-time-date">2022-08-01</div>
+                  </div>
+                  <div class="feed-card-left-right-detail">
+                    <div class="feed-card-left-right-detail-title">
+                      <span>Doing Homework</span>
+                      <span class="edit-button">edit</span>
+                    </div>
+                    <div class="feed-card-left-right-detail-detail">
+                      <span>I used this time to do some homework.</span>
+                      <span class="edit-button">edit</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feed-card-right-part">
+                  <div class="delet-btn">delete</div>
+                </div>
+              </div>
+              <div class="feed-card">
+                <div class="feed-card-left-part">
+                  <div class="feed-card-left-left-time">
+                    <div class="feed-card-left-time-span">10:00</div>
+                    
+                    <div class="feed-card-left-time-date">2022-08-03</div>
+                  </div>
+                  <div class="feed-card-left-right-detail">
+                    <div class="feed-card-left-right-detail-title">
+                      <span>Doing Project</span>
+                      <span class="edit-button">edit</span>
+                    </div>
+                    <div class="feed-card-left-right-detail-detail">
+                      <span>I used this time to do some projects. This is a very hard project, and it is very memorable.</span>
+                      <span class="edit-button">edit</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="feed-card-right-part">
+                  <div class="delet-btn">delete</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </body>
 </html>
+
